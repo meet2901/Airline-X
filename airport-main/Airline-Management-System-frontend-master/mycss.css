@@ -1,0 +1,252 @@
+body {
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.carousel-caption {
+	top: 20% !important;
+	bottom: auto;
+	font-size: 24px;
+}
+
+.carousel-caption h2 {
+	font-size: 9rem;
+	margin-bottom: 0;
+	color: #FFF;
+	font-weight: 300;
+}
+
+
+.carousel-caption p {
+	color: rgba(255, 255, 255, 0.65);
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 300;
+	margin: 0;
+	padding-bottom: 1.75rem;
+	letter-spacing: .25rem;
+}
+
+header {
+	color: black;
+
+}
+
+
+
+
+
+
+
+#footer {
+	padding: 4rem 0 2rem 0;
+	background: #000;
+	text-align: center;
+	width: 100% !important;
+	bottom: 0;
+
+}
+
+ul.icons li {
+	display: inline-block;
+	padding: 0 2rem 0 0;
+	font-size: 36px;
+}
+
+
+
+
+
+
+
+.background-wrapper {
+	background-color: white;
+	color: black;
+
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+}
+
+
+
+
+
+.panel-transparent {
+	background: none;
+
+	border-radius: 0;
+	border: none;
+
+
+}
+
+.panel-transparent .panel-heading {
+	background: rgba(122, 130, 136, 0.6) !important;
+
+}
+
+.panel-transparent .panel-body {
+	background: rgba(46, 51, 56, 0.4) !important;
+}
+
+
+
+
+.trans-input-area {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	border: none !important;
+	color: #fff;
+}
+
+;
+
+
+/*list groups*/
+
+.list-group {
+	margin: 0;
+}
+
+.list-group-item {
+	margin: none;
+	border: none;
+	border-radius: 0;
+	background-color: rgb(236, 233, 233);
+	text-align: center;
+}
+
+;
+
+.first-section {
+	position: relative;
+	margin-bottom: -150px;
+}
+
+.hero-img {
+	background-image: url('airport.avif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+}
+
+/* Flight Search Section */
+.flight-search-container {
+	margin: 20px 0;
+	background: white;
+	width: 85%;
+	max-width: 1200px;
+	margin: 0 auto 40px;
+	padding: 30px 40px;
+	border-radius: 25px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+	top: -150px;
+	z-index: 10;
+}
+
+.tab-container {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 30px;
+}
+
+.tab {
+	padding: 12px 30px;
+	border: none;
+	border-radius: 25px;
+	font-weight: 600;
+	cursor: pointer;
+	color: white;
+	background-color: #9c2c64;
+	transition: all 0.3s ease;
+}
+
+.tab:not(.active):hover {
+	background-color: #7a2350;
+}
+
+.tab.active {
+	background-color: #e0dfe7;
+	color: #9c2c64;
+}
+
+.flight-form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.input-group {
+	position: relative;
+	flex: 1;
+	min-width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-group label {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.input-group input {
+	padding: 10px 10px 10px 35px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	outline: none;
+	background-color: transparent;
+	transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+	border-bottom-color: #9c2c64;
+}
+
+.icon {
+	position: absolute;
+	top: 37px;
+	left: 10px;
+	color: #9c2c64;
+	font-size: 14px;
+}
+
+.search-btn {
+	background-color: #9c2c64;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 25px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 20px;
+	white-space: nowrap;
+	transition: background-color 0.3s ease;
+	width: 100%;
+}
+
+.search-btn:hover {
+	background-color: #7a2350;
+}
+.logout:hover{
+	color:#000
+}
+
+.form-section-container{
+	margin-top: 50px;
+}
+
+.tab a{
+	text-decoration: none;
+	color: #9c2c64;
+}
