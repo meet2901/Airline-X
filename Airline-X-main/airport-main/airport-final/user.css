@@ -1,0 +1,99 @@
+/* Base colors */
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+/* Navbar */
+.navbar-inverse {
+    background-color: #ADD8E6 !important; /* Light Blue */
+    border: none;
+    color: black;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    color: black !important;
+}
+
+/* Sidebar */
+.nav-pills > li > a {
+    background-color: #ADD8E6;
+    color: black;
+    border-radius: 0;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li > a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* List group items in the sidebar */
+.list-group-item {
+    background-color: white;
+    color: black;
+    border: 1px solid #ADD8E6;
+}
+
+.list-group-item:hover {
+    background-color: #ADD8E6;
+    color: black;
+}
+
+/* Table Styling */
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f2f9fc; /* soft light blue */
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #ADD8E6;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ADD8E6;
+    border-color: #ADD8E6;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: #ADD8E6;
+    color: black;
+}
+
+/* Modal */
+.modal-content {
+    background-color: white;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #ADD8E6;
+    color: black;
+}
+
+/* Pagination */
+.pagination > li > a, .pagination > li > span {
+    color: black;
+    background-color: white;
+    border: 1px solid #ADD8E6;
+}
+
+.pagination > .active > a,
+.pagination > .active > span {
+    background-color: #ADD8E6;
+    border-color: #ADD8E6;
+    color: black;
+}
+
+/* Footer */
+#footer {
+    background-color: #ADD8E6;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+}
